@@ -1,0 +1,100 @@
+body {
+  background-color: #001f3f;
+  color: #f5f5dc;
+}
+
+table {
+  background-color: #f5f5dc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table thead {
+  background-color: #001f3f;
+  color: #f5f5dc;
+  text-transform: uppercase;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.table th,
+.table td {
+  text-align: center;
+  padding: 15px;
+  vertical-align: middle;
+}
+
+.table tbody tr:nth-child(odd) {
+  background-color: #f0ead6;
+}
+
+.table tbody tr:hover {
+  background-color: #f0f0f0;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.table td .d-flex {
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  border: none;
+  color: #f5f5dc;
+}
+
+.btn-primary {
+  background-color: #f5f5dc;
+  color: #001f3f;
+}
+
+.btn-primary:hover {
+  background-color: #ffcc00;
+  color: #001f3f;
+}
+
+.btn-warning {
+  background-color: #ffcc00;
+  color: #001f3f;
+}
+
+.btn-warning:hover {
+  background-color: #e6b800;
+}
+
+.btn-info {
+  background-color: #0099cc;
+  color: #f5f5dc;
+}
+
+.btn-info:hover {
+  background-color: #007ba7;
+}
+
+.btn-danger {
+  background-color: #cc3300;
+  color: #f5f5dc;
+}
+
+.btn-danger:hover {
+  background-color: #b32400;
+}
+
+img {
+  border: 2px solid #001f3f;
+  border-radius: 10px;
+}
+
+h1 {
+  color: #f5f5dc;
+  padding: 10px;
+  text-align: center;
+}
